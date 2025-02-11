@@ -6,6 +6,7 @@ public class Array {
         Scanner sc = new Scanner(System.in);
         Scanner str = new Scanner(System.in);
 
+
         System.out.print("masukan total MK: ");
         int mk = sc.nextInt();
 
@@ -64,7 +65,7 @@ public class Array {
         System.out.println("===================================");
         double bobotsks = 0, tsks = 0;
         for(int i = 0; i < mk;i++){
-            bobotsks= nilaiSetara[i]* sks[i];
+            bobotsks += nilaiSetara[i] 7* sks[i];
             tsks += sks[i];
         }
 
