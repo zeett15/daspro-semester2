@@ -45,4 +45,26 @@ public class DataDosen {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'dosenPalingTua'");
     }
+
+    public Object tambah;
+
+    public void tambah(Dosen d1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tambah'");
+    }
+
+    public void tampil() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tampil'");
+    }
+
+    public void sortingASC() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sortingASC'");
+    }
+
+    public void sortingDEC() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sortingDEC'");
+    }
 }
