@@ -80,32 +80,32 @@ public class MahasiswaBerprestasi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         MahasiswaBerprestasi list = new MahasiswaBerprestasi();
-        // Mahasiswa m1 = new Mahasiswa("123", "Zidan", "2A", 3.2);
-        // Mahasiswa m2 = new Mahasiswa("122", "Ayu", "2A", 3.5);
-        // Mahasiswa m3 = new Mahasiswa("124", "Sofi", "2A", 3.1);
-        // Mahasiswa m4 = new Mahasiswa("125", "Sita", "2A", 3.9);
-        // Mahasiswa m5 = new Mahasiswa("126", "Miki", "2A", 3.7);
+        Mahasiswa m1 = new Mahasiswa("123", "Zidan", "2A", 3.2);
+        Mahasiswa m2 = new Mahasiswa("122", "Ayu", "2A", 3.5);
+        Mahasiswa m3 = new Mahasiswa("124", "Sofi", "2A", 3.1);
+        Mahasiswa m4 = new Mahasiswa("125", "Sita", "2A", 3.9);
+        Mahasiswa m5 = new Mahasiswa("126", "Miki", "2A", 3.7);
 
-        // list.tambah(m2);
-        // list.tambah(m2);
-        // list.tambah(m3);
-        // list.tambah(m4);
-        // list.tambah(m5);
+        list.tambah(m2);
+        list.tambah(m2);
+        list.tambah(m3);
+        list.tambah(m4);
+        list.tambah(m5);
 
-        for(int i =0; i<listMhs.length;i++){
-            System.out.println("Masukkan data mahasiswa ke-" + (i + 1));
-            System.out.print("NIM: ");
-            String nim = sc.nextLine();
-            System.out.print("Nama: ");
-            String nama = sc.nextLine();
-            System.out.print("Kelas: ");
-            String kelas = sc.nextLine();
-            System.out.print("IPK: ");
-            double ipk = sc.nextDouble();
-            sc.nextLine();  
-            Mahasiswa m = new Mahasiswa(nim, nama, kelas, ipk);
-            list.tambah(m);
-        }
+        // for(int i =0; i<listMhs.length;i++){
+        //     System.out.println("Masukkan data mahasiswa ke-" + (i + 1));
+        //     System.out.print("NIM: ");
+        //     String nim = sc.nextLine();
+        //     System.out.print("Nama: ");
+        //     String nama = sc.nextLine();
+        //     System.out.print("Kelas: ");
+        //     String kelas = sc.nextLine();
+        //     System.out.print("IPK: ");
+        //     double ipk = sc.nextDouble();
+        //     sc.nextLine();  
+        //     Mahasiswa m = new Mahasiswa(nim, nama, kelas, ipk);
+        //     list.tambah(m);
+        // }
     
 
         System.out.println("Data mahasiswa sebelum sorting: ");

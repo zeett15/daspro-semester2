@@ -46,9 +46,9 @@ public class Datadosen {
         }
     }
     void sortingASC(){
-        for(int i = 0; i<dosen.length-1; i++){
-            for(int j = 1; j< dosen.length-i-1; j++){
-                if (dosen[j].usia < dosen[j+1].usia){
+        for(int i = 0; i<dosen.length -1; i++){
+            for(int j = 0; j< dosen.length-i-1; j++){
+                if (dosen[j].usia > dosen[j+1].usia){
                     Dosen tmp = dosen[j];
                     dosen[j] = dosen[j+1];
                     dosen[j+1] = tmp;
@@ -57,7 +57,7 @@ public class Datadosen {
         }
     }
     void sortingDSC(){
-        for (int i = 0; i < dosen.length - 1; i++) {
+        for (int i = 0; i < dosen.length -1; i++) {
             int idxMax = i;
             for (int j = i + 1; j < dosen.length; j++) {
                 if (dosen[j].usia > dosen[idxMax].usia) {
