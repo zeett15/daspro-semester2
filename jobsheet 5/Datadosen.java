@@ -83,6 +83,7 @@ public class Datadosen {
         Dosen d9 = new Dosen("09", "yusran", true, 44);
         Dosen d10 = new Dosen("10", "gina", false, 36);
 
+        
         list.tambah(d1);
         list.tambah(d2);
         list.tambah(d3);

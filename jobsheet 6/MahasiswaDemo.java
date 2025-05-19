@@ -25,7 +25,7 @@ class Mahasiswa{
 }
 
 class MahasiswaBerprestasi {
-    public static Mahasiswa [] listMhs;
+    static Mahasiswa [] listMhs;
     int idx;
 
     void tambah (Mahasiswa m){
